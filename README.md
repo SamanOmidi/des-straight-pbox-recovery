@@ -54,7 +54,14 @@ This approach leverages both:
 
 ## 📁 Repository Structure
 
-
+├── main.py # Entry point for the recovery process
+├── solve.py # Core logic for P-box reconstruction
+├── findTable.py # Brute-force / constrained search for the P-box
+├── boxes.py # DES S-boxes and known permutation tables
+├── pad.py # Padding and helper utilities
+├── pair.txt # Known plaintext–ciphertext pairs
+├── output.txt # Intermediate recovered data (generated)
+├── answer.txt # Final recovered P-box and decrypted result
 
 ---
 
